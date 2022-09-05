@@ -1,0 +1,2 @@
+#!/bin/bash
+cat /dev/stdin | cut -f -d$'\t' | uniq -c | sort -r | cut -f8 -d' ' | head --lines=11
