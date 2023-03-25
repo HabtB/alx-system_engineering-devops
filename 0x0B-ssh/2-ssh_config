@@ -1,0 +1,5 @@
+Host server1 
+    HostName 174.129.54.166
+    Port 22
+    IdentityFile  ~/.ssh/school
+    PasswordAuthentication no
