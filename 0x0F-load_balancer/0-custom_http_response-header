@@ -1,4 +1,3 @@
-
 #!/usr/bin/env bash
 #Config NGINX server with custom header response
 sudo apt-get -y update
