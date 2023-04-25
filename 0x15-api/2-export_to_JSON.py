@@ -17,8 +17,6 @@ if __name__ == '__main__':
     response = requests.get(url2)
     tasks = response.json()
 
-    print(tasks)
-
     task_dict = {employee_id: []}
     for task in tasks:
         task_dict[employee_id].append({
