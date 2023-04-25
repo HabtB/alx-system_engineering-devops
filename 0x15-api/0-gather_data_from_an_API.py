@@ -10,7 +10,6 @@ if __name__ == '__main__':
     url = "https://jsonplaceholder.typicode.com/users/" + str(employee_id)
     response = requests.get(url)
     employee_data = response.json()
-    print(employee_data)
 
     """ Get the employee name and the number of completed tasks"""
     employee_name = employee_data['name']
