@@ -28,7 +28,7 @@ if __name__ == '__main__':
     total_number_of_tasks = len(tasks)
 
     """ Print the employee TODO list progress """
-    print('Employee {} is done with tasks ({}/{}):'.format(employee_name,
+    print('Employee {} is done with tasks({}/{}):'.format(employee_name,
           number_of_completed_tasks, total_number_of_tasks))
 
     """Print the title of completed tasks"""
