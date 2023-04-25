@@ -34,7 +34,3 @@ if __name__ == '__main__':
     """Print the title of completed tasks"""
     for task in completed_tasks:
         print("\t {}".format(task["title"]))
-
-
-if __name__ == "__main__":
-    first_line(int(sys.argv[1]))
