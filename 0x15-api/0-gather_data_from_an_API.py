@@ -33,4 +33,4 @@ if __name__ == '__main__':
 
     """Print the title of completed tasks"""
     for task in completed_tasks:
-        print("\t" + task["title"])
+        print("\t {}".format(task["title"]))
