@@ -16,8 +16,8 @@ frontend  habtish-frontend
         default_backend habtish-backend
 backend habtish-backend
         balance roundrobin
-        server 117475-web-01 100.26.178.47:80 check
-        server 117475-web-02 100.26.214.157:80 check
+        server 117475-web-01 54.237.60.120:80 check
+        server 117475-web-02 100.25.31.180:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
