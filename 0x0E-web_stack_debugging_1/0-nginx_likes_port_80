@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-# So the problem was the nginx engine was configuredon  the port was
-# at 8080, So I tried many ways to restart it but they didn't work; he only
-# command that seem to work is what I did and successfuly restarted
-
+# Troubleshoot why the server is not listening on port 80
 sudo sed -i "s/8080/80/g" /etc/nginx/sites-enabled/default
-service nginx start
+service nginx restart
