@@ -19,4 +19,4 @@ What you should learn from this project:
 ---
 
 ## Author
-* ** Habtamu B**
+* ** Habtamu B **
