@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """Accessing a REST API for todo lists of employees"""
 
-import requests
+from requests import get
 from sys import argv
 
 if __name__ == "__main__":
@@ -29,4 +29,4 @@ if __name__ == "__main__":
                                                           total))
 
     for i in tasks:
-        print("\t {}".format
+        print("\t {}".format(i))
